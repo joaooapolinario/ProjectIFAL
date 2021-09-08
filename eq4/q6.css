@@ -1,0 +1,55 @@
+#search{
+    background-color: yellow;
+    width: 700px;
+    height: 610px;
+    border-radius: 10px 0 0 10px ;
+}
+#table{
+    background-color: black;
+    width: 640px;
+    border-radius: 0 10px 10px 0 ;
+}
+#h2{
+    margin: 200px 0 0 300px;
+
+}
+#voltar{
+    margin: 150px 0 0 20px;
+}
+.form{
+    width: 250px;
+    padding: 5px;
+    margin: 40px 0 0 230px;
+    text-align: center;
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+}
+input[type=text]{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+button{
+    margin-bottom: 10px;
+    padding: 5px;
+    color: white;
+    background-color:black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+section{
+    display: inline-flex;
+}
+table{
+    background-color: white;
+    margin: 20px 0 0 150px;
+    border-radius: 5px;
+}
+th{
+    padding: 5px;
+}
