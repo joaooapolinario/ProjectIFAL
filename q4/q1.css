@@ -1,0 +1,79 @@
+body{
+    background-color:yellow;
+    font: 15pt arial;
+}
+header{
+    text-align: center;
+}
+section{
+    background-color: black;
+    color: white;
+    width: 450px;
+    padding: 10px;
+    margin: auto;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+footer{
+   text-align: center;
+   padding: 10px;
+
+}
+th{    
+    font: 25px;
+    text-align: center;
+    font-weight: bolder;
+}
+tr{
+    font: 25px;
+    text-align: center;
+    font-weight: bolder;
+}
+table{
+    border-style: ridge;
+    border-radius:1px;
+    border-color: black;
+    font:25px;
+    
+}
+h1{
+    color:black;
+}
+input[type=text]{
+    border-radius: 5px;
+}
+input[type=button]{
+    background-color: white;
+    color:black;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button{
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    box-shadow: 1px yellow;
+    cursor: pointer;
+    padding: 5px;
+}
+#tmedia,.tmedia{
+    background-color: blue;
+}
+#tmediana,.tmediana{
+    background-color: red;
+}
+#tmoda,.tmoda{
+    background-color: green;
+}
+#tdesvio,.tdesvio{
+    background-color: gray;
+}
+#tsomatoria,.tsomatoria{
+    background-color: orange;
+}
