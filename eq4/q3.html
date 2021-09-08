@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3</title>
+    <link rel="stylesheet" type ="text/css" href="q3.css">
+    <script src="q3.js"></script>
+
+</head>
+
+<body>
+        <div id="primeiro">
+            <div class="Título">
+                <h2>Digite 11 números</h2>
+
+            </div>
+            <div class="Botão">
+                <div class="input">
+                    <label>Digite um número por vez: </label>
+                    <input type="number" name="numero" id='numero'>
+                    <button onclick="GO()">GO</button>
+                </div>
+            </div>
+            <button id="voltar" type="button" onclick="location.href='Index.html'">Voltar</button>
+        </div>
+        <div id="segundo">
+            <p id="resultado"></p>
+            <div class="Conteúdo">
+                <table border="1">
+                    <thead>
+                        <th class="centralizado">Signo</th>
+                        <th class="centralizado">Valor</th>
+                    </thead>
+
+                    <tbody id="tb" class="centralizado">
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
